@@ -1,0 +1,39 @@
+Button{
+    -fx-font-family: "Georgia";
+    -fx-font-size: 28px;
+    -fx-text-fill: #FF3399;
+    -fx-font-style: italic;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 2; 
+    -fx-background-color: #E6FD74;
+    -fx-border-radius: 6;
+}
+
+Button:hover{
+    -fx-background-color: #333333;
+    -fx-font-size: 22px;
+}
+
+Button:pressed {
+    -fx-background-color: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000; 
+}
+
+#Panel_fondo {
+    -fx-background-color: #F90000;
+}
+
+#etiquetaTitulo {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 36px;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-style: italic;
+}
+
+#etiquetaPequena1, #etiquetaPequena2{
+    -fx-text-fill: #660099;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 12px;
+}
+

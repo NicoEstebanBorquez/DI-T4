@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="Panel_fondo" fx:id="Panel" prefHeight="475.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="di_t4_55124290y.VistaPrincipalController">
+   <children>
+      <VBox prefHeight="432.0" prefWidth="397.0">
+         <children>
+            <Label id="etiquetaTitulo" alignment="CENTER" prefHeight="45.0" prefWidth="400.0" text="Aplicación de estilo">
+               <font>
+                  <Font size="36.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Button fx:id="btnEstilo1" mnemonicParsing="false" onAction="#aplicarEstilo1" prefWidth="350.0" text="Aplicar estilo 1">
+               <font>
+                  <Font size="28.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="25.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#aplicarEstilo2" prefWidth="350.0" text="Aplicar estilo 2">
+               <font>
+                  <Font size="28.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="25.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#aplicarEstilo3" prefWidth="350.0" text="Aplicar estilo 3">
+               <font>
+                  <Font size="28.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="25.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#resetear" prefWidth="350.0" text="Resetear">
+               <font>
+                  <Font size="28.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="25.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#salir" prefWidth="350.0" text="Salir">
+               <font>
+                  <Font size="28.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="25.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Label id="etiquetaPequena1" alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="403.0" text="Creación de estilo hecha por: ">
+               <padding>
+                  <Insets right="30.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+            <Label id="etiquetaPequena2" alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="398.0" text="Nicolás Esteban Borquez">
+               <padding>
+                  <Insets right="30.0" />
+               </padding>
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
